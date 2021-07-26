@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 980px;
+  background-color: #f3f2fc;
+}
+
+.promo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.promo_white {
+  width: 85em;
+  background-color: #ffffff;
+  padding: 80px 0 80px 40px;
+}
+
+.promo_photo img {
+  width: 15em;
+  padding: 40px 0 0 40px;
+}
+
+.promo_name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 60px;
+  color: #000000;
+}
+
+#big {
+  font-size: 40px;
+}
+
+.promo_prof {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 40px;
+  padding: 0 40px;
+}
+
+.left {
+  width: 30em;
+}
+
+.right {
+  width: 70em;
+}
+
+.titles {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  margin-top: 20px;
+  padding-left: 20px;
+  line-height: 36px;
+}
+
+.bold {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.code {
+  margin-top: 20px;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #f3f2fc;
+}
+
+.rs_school,
+.footer_year,
+.footer_item {
+  margin: 20px 0;
+}
+
+.rs_school_logo,
+.github_logo {
+  height: 20px;
+}
+
+.footer_text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+.hidden-title {
+  font-size: 0px;
+  opacity: 0;
+}
